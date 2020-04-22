@@ -1,0 +1,13 @@
+# Layerfiles run things automatically every time you push code.
+# This editor lets you develop a Layerfile for your project.
+# The example code simply prints hello world! on every push.
+
+# Run tests in a machine running ubuntu:18.04
+FROM vm/ubuntu:18.04
+
+# Run the "echo" shell command to print 'hello world!' to the terminal
+RUN echo 'hello world!'
+
+# Not sure where to start? Try our onboarding tutorial:
+# http://layerci.com/onboarding
+# (or "Github Tutorial" in the "About" page below)
