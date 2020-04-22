@@ -13,4 +13,4 @@ RUN echo 'hello world!'
 # (or "Github Tutorial" in the "About" page below)
 RUN git clone https://github.com/franticsearch/franticsearch.github.io
 RUN cd franticsearch.github.io
-RUN git status
+RUN dir
