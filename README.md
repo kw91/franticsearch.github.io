@@ -1,1 +1,0 @@
-# franticsearch.github.io
